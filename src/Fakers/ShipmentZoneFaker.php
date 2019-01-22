@@ -16,8 +16,12 @@ class ShipmentZoneFaker extends Faker
         $faker = Factory::create();
 
         $bag = new Bag();
-        $bag->set('name', $faker->name);
-        $bag->set('description', $faker->text);
+        $bag->set('courier', CourierFaker::make()->parameters()->toArray());
+        $bag->set('zip_code', $faker->postcode);
+        $bag->set('city', $faker->city);
+        $bag->set('province', $faker->name);
+        $bag->set('country', 'IT');
+        $bag->set('region', $faker->name);
 
         return $bag;
     }

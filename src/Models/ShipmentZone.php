@@ -21,4 +21,12 @@ class ShipmentZone extends Model implements EntityContract
         $this->ini('amethyst.shipment-zone.data.shipment-zone');
         parent::__construct($attributes);
     }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function courier()
+    {
+        return $this->belongsTo(Courier::class);
+    }
 }
