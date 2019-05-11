@@ -28,6 +28,6 @@ class ShipmentZone extends Model implements EntityContract
      */
     public function courier(): BelongsTo
     {
-        return $this->belongsTo(Courier::class);
+        return $this->belongsTo(config('amethyst.courier.data.courier.model'));
     }
 }
