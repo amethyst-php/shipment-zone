@@ -6,12 +6,12 @@ use Amethyst\Common\ConfigurableManager;
 use Railken\Lem\Manager;
 
 /**
- * @method \Amethyst\Models\ShipmentZone newEntity()
- * @method \Amethyst\Schemas\ShipmentZoneSchema getSchema()
+ * @method \Amethyst\Models\ShipmentZone                 newEntity()
+ * @method \Amethyst\Schemas\ShipmentZoneSchema          getSchema()
  * @method \Amethyst\Repositories\ShipmentZoneRepository getRepository()
- * @method \Amethyst\Serializers\ShipmentZoneSerializer getSerializer()
- * @method \Amethyst\Validators\ShipmentZoneValidator getValidator()
- * @method \Amethyst\Authorizers\ShipmentZoneAuthorizer getAuthorizer()
+ * @method \Amethyst\Serializers\ShipmentZoneSerializer  getSerializer()
+ * @method \Amethyst\Validators\ShipmentZoneValidator    getValidator()
+ * @method \Amethyst\Authorizers\ShipmentZoneAuthorizer  getAuthorizer()
  */
 class ShipmentZoneManager extends Manager
 {
