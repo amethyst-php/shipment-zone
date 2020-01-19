@@ -1,6 +1,6 @@
 # amethyst-shipment-zone
 
-[![Build Status](https://travis-ci.org/amethyst-php/shipment-zone.svg?branch=master)](https://travis-ci.org/amethyst-php/shipment-zone)
+[![Action Status](https://github.com/amethyst-php/shipment-zone/workflows/test/badge.svg)](https://github.com/amethyst-php/shipment-zone/actions)
 
 [Amethyst](https://github.com/amethyst-php/amethyst) package.
 
